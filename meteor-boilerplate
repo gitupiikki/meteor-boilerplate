@@ -109,7 +109,7 @@ case ${1} in
 
         # Create files
         touch client/modules/${2}/${2}.js
-        touch client/modules/${2}/${2}.less
+        touch client/modules/${2}/${2}.scss
         touch client/modules/${2}/${2}.html
 
         # Fill files
@@ -125,7 +125,7 @@ case ${1} in
         echo "});"                      >> client/modules/${2}/${2}.js
         echo ""                         >> client/modules/${2}/${2}.js
 
-        echo "@import '../../stylesheets/variables.less'; "  >> client/modules/${2}/${2}.less
+        echo "@import '../../stylesheets/variables.scss'; "  >> client/modules/${2}/${2}.less
         echo ""                                             >> client/modules/${2}/${2}.less
 
         # Succesful

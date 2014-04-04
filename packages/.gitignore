@@ -15,6 +15,7 @@ iron-router-progress
 /semantic-ui
 /collection2
 /simple-schema
+<<<<<<< HEAD
 /semantic-ui
 /collection2
 /simple-schema
@@ -24,3 +25,8 @@ iron-router-progress
 /blaze-layout
 /simple-schema
 /bourbon
+=======
+/handlebar-helpers
+/iron-router-progress
+/blaze-layout
+>>>>>>> upstream/master
