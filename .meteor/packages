@@ -4,8 +4,6 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-preserve-inputs
-less
 jquery
 underscore
 handlebar-helpers
@@ -15,3 +13,4 @@ accounts-ui
 iron-router-progress
 semantic-ui
 collection2
+bourbon
